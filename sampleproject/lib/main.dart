@@ -11,8 +11,7 @@ class CCTracker extends StatelessWidget {
     return MaterialApp(
       theme: ThemeData(
         primarySwatch: Colors.indigo,
-        buttonColor: Colors.black
-      ),
+        ),
       home: CCList()
     );
   }
